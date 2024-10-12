@@ -1,27 +1,27 @@
 .theme-toggle {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    font-size: 36px;
-    background-color: transparent;
-    color: var(--text-color);
-    border: none;
-    cursor: pointer;
-    transition: color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .theme-toggle:hover {
-    color: #00acee;
-    transform: scale(1.1);
-  }
-  
-  .dark-mode {
-    background-color: #121212;
-    color: #ffffff;
-  }
-  
-  .light-mode {
-    background-color: #ffffff;
-    color: #121212;
-  }
-  
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 36px;
+  background-color: transparent;
+  color: var(--text-color);
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+  z-index: 1000;
+}
+
+.theme-toggle:hover {
+  color: #00acee;
+  transform: scale(1.1);
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #121212;
+}
