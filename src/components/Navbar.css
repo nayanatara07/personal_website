@@ -1,70 +1,70 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background: linear-gradient(135deg, #4e4e4e, #1c1c1c);
-    color: white;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #4e4e4e, #1c1c1c);
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 4px 0;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links li a:hover {
+  background-color: #4CAF50; /* Changed to #4CAF50 for hover */
+  transform: translateY(-2px);
+  border-radius: 5px;
+}
+
+.nav-icon {
+  font-size: 24px;
+  transition: transform 0.2s ease;
+}
+
+@media (max-width: 768px) {
   .hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-  }
-  
-  .hamburger .line {
-    width: 30px;
-    height: 4px;
-    background-color: white;
-    margin: 4px 0;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 30px;
-  }
-  
-  .nav-links li {
-    list-style: none;
-  }
-  
-  .nav-links li a {
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .nav-links li a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    transform: translateY(-2px);
-    border-radius: 5px;
-  }
-  
-  .nav-icon {
-    font-size: 24px;
-    transition: transform 0.2s ease;
-  }
-  
-  @media (max-width: 768px) {
-    .hamburger {
       display: flex;
-    }
-  
-    .nav-links {
+  }
+
+  .nav-links {
       display: none;
       flex-direction: column;
       align-items: flex-start;
@@ -78,14 +78,13 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
       z-index: 999;
       transition: all 0.3s ease;
-    }
-  
-    .nav-links li {
-      padding: 10px 0;
-    }
-  
-    .nav-links.open {
-      display: flex;
-    }
   }
-  
+
+  .nav-links li {
+      padding: 10px 0;
+  }
+
+  .nav-links.open {
+      display: flex;
+  }
+}

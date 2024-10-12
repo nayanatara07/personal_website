@@ -45,24 +45,24 @@
   }
   
   .social-icons a:hover {
-    color: #00acee;
+    color: #4CAF50;
     transform: translateY(-2px);
   }
   
   .explore-link {
-    color: #00acee;
+    color: #4CAF50;
     font-size: 20px;
     text-decoration: none;
     margin-top: 20px;
     padding: 5px 10px;
-    border: 1px solid #00acee;
+    border: 1px solid #4CAF50;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
   }
   
   .explore-link:hover {
-    background-color: #00acee;
+    background-color: #4CAF50;
     color: white;
     text-decoration: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
