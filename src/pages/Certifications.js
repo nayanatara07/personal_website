@@ -5,15 +5,38 @@ function Certifications() {
   return (
     <div className="certifications-container">
       <h2>Certifications</h2>
-      
-      <ul>
-        <li><strong>CyberSecurity:</strong> Compliance Framework, System Administration, OS Security, Tools and Attacks (08 - 10/2023)</li>
-        <li><strong>Ethical Hacking and Android App Development:</strong> MyCaptain (06 - 11/2023)</li>
-        <li><strong>Data Structures and Programming Languages:</strong> University of Michigan, Coursera (06/2022)</li>
-        <li><strong>Artificial Intelligence:</strong> Academor (10/2023)</li>
-        <li><strong>Core Java:</strong> LearnQuest (04/2023)</li>
-        <li><strong>C, Python and Java:</strong> Edyst (06/2023)</li>
-      </ul>
+      <div className="certification-card-container">
+        <div className="certification-card">
+          <h3>CyberSecurity</h3>
+          <p>Compliance Framework, System Administration, OS Security, Tools and Attacks</p>
+          <span>08 - 10/2023</span>
+        </div>
+        <div className="certification-card">
+          <h3>Ethical Hacking and Android App Development</h3>
+          <p>MyCaptain</p>
+          <span>06 - 11/2023</span>
+        </div>
+        <div className="certification-card">
+          <h3>Data Structures and Programming Languages</h3>
+          <p>University of Michigan, Coursera</p>
+          <span>06/2022</span>
+        </div>
+        <div className="certification-card">
+          <h3>Artificial Intelligence</h3>
+          <p>Academor</p>
+          <span>10/2023</span>
+        </div>
+        <div className="certification-card">
+          <h3>Core Java</h3>
+          <p>LearnQuest</p>
+          <span>04/2023</span>
+        </div>
+        <div className="certification-card">
+          <h3>C, Python and Java</h3>
+          <p>Edyst</p>
+          <span>06/2023</span>
+        </div>
+      </div>
     </div>
   );
 }

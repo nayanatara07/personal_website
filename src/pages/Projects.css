@@ -1,0 +1,55 @@
+.projects-container {
+    background-color: #1a1a1a; /* Dark background */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: 100px auto; /* Center on page */
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .projects-container h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #4CAF50; /* Title color */
+  }
+  
+  .project-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Spacing between cards */
+  }
+  
+  .project-card {
+    background-color: #2a2a2a; /* Card background color */
+    padding: 30px; /* Increase padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; /* Card width */
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #4CAF50; /* Text color */
+  }
+  
+  .project-card p {
+    margin: 5px 0;
+    color: #ddd; /* Project description text color */
+  }
+  
+  .project-card span {
+    font-size: 14px;
+    color: #bbb; /* Duration text color */
+  }
+  

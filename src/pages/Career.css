@@ -1,15 +1,54 @@
 .career-container {
-    text-align: center;
-    padding: 50px;
-  }
-  
-  h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 18px;
-    color: var(--text-color);
-  }
-  
+  background-color: #1a1a1a; /* Dark background */
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: 100px auto; /* Center on page */
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.career-container h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #4CAF50; /* Title color */
+}
+
+.career-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Spacing between cards */
+}
+
+.career-card {
+  background-color: #2a2a2a; /* Card background color */
+  padding: 20px; /* Card padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px; /* Card width */
+  transition: transform 0.3s;
+}
+
+.career-card:hover {
+  transform: translateY(-5px);
+}
+
+.career-card h3 {
+  font-size: 20px; /* Card title size */
+  margin-bottom: 10px;
+  color: #4CAF50; /* Title color */
+}
+
+.career-card p {
+  margin: 5px 0;
+  color: #ddd; /* Company text color */
+}
+
+.career-card span {
+  font-size: 14px; /* Duration size */
+  color: #bbb; /* Duration text color */
+}
