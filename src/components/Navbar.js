@@ -14,14 +14,12 @@ function Navbar() {
     <nav className="header">
       <h1>Nayana Tara</h1>
 
-      {/* Hamburger icon */}
       <div className="hamburger" onClick={toggleMenu}>
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
       </div>
 
-      {/* Conditional class to toggle the menu visibility */}
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
         <li>
           <Link to="/">
