@@ -1,54 +1,74 @@
 .education-container {
-    background-color: #1a1a1a;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    max-width: 900px;
-    margin: 100px auto;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
+  background-color: #1a1a1a;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: 100px auto;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.education-container h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #4CAF50;
+}
+
+.timeline-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.timeline-card {
+  background-color: #2a2a2a;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s;
+  flex: 1;
+  min-width: 250px;
+}
+
+.timeline-card:hover {
+  transform: translateY(-5px);
+}
+
+.timeline-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #4CAF50;
+}
+
+.timeline-card p {
+  margin: 5px 0;
+  color: #ddd;
+}
+
+.timeline-card span {
+  font-size: 14px;
+  color: #bbb;
+}
+
+@media (max-width: 768px) {
+  .education-container {
+      padding: 30px;
   }
-  
+
   .education-container h2 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: #4CAF50;
+      font-size: 28px;
   }
-  
-  .timeline-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
+
   .timeline-card {
-    background-color: #2a2a2a;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 300px;
-    transition: transform 0.3s;
+      padding: 20px;
   }
-  
-  .timeline-card:hover {
-    transform: translateY(-5px);
-  }
-  
+
   .timeline-card h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #4CAF50;
+      font-size: 16px;
   }
-  
-  .timeline-card p {
-    margin: 5px 0;
-    color: #ddd;
-  }
-  
-  .timeline-card span {
-    font-size: 14px;
-    color: #bbb;
-  }
-  
+}
