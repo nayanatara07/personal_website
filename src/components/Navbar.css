@@ -27,7 +27,30 @@
     transition: 0.4s;
   }
   
-  /* Show the hamburger icon on small screens */
+  /* Navigation links container */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Icons and text for navigation items */
+  .nav-links li {
+    list-style: none;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-icon {
+    font-size: 20px;
+  }
+  
+  /* Hamburger menu display for small screens */
   @media (max-width: 768px) {
     .hamburger {
       display: flex;
@@ -46,16 +69,9 @@
     }
   
     .nav-links li {
-      list-style: none;
       padding: 10px 0;
     }
   
-    .nav-links li a {
-      color: white;
-      text-decoration: none;
-    }
-  
-    /* When the hamburger is clicked, display the menu */
     .nav-links.open {
       display: flex;
     }
