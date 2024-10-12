@@ -82,7 +82,7 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 ## Contact
 
 - **Name**: NayanaTara
-- **Email**: your.email@example.com
+- **Email**: nayana2017tara@gmail.com
 - **LinkedIn**: [My LinkedIn](https://www.linkedin.com/in/nayanatara07/)
 - **GitHub**: [My GitHub](https://github.com/nayanatara07)
 
