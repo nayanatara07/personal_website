@@ -1,6 +1,6 @@
 import React from 'react';
 import './Profile.css';
-import avatar from './avatar.png'; // Adjust the path if needed
+import avatar from './avatar.png'; 
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 function Profile() {
@@ -19,7 +19,15 @@ function Profile() {
           <FaLinkedin />
         </a>
       </div>
-      <a href="#explore" className="explore-link">Explore →</a>
+      <div className="explore-section">
+  <a 
+    href="https://linktr.ee/nayana_tara" 
+    className="explore-link" 
+    target="_blank" 
+    rel="noopener noreferrer">
+    Explore →
+  </a>
+  </div>
     </div>
   );
 }

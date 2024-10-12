@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import { FaHome, FaBriefcase, FaGraduationCap, FaProjectDiagram, FaCertificate } from 'react-icons/fa';
+import { FaHome, FaBriefcase, FaGraduationCap, FaProjectDiagram, FaCertificate, FaExternalLinkAlt } from 'react-icons/fa';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav className="header">
       <h1>Nayana Tara</h1>
-      
+
       {/* Hamburger icon */}
       <div className="hamburger" onClick={toggleMenu}>
         <div className="line"></div>
