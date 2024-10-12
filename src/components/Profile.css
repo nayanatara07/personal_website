@@ -13,6 +13,12 @@
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease;
+  }
+  
+  .avatar:hover {
+    transform: scale(1.05);
   }
   
   .subtitle {
@@ -20,6 +26,8 @@
     font-weight: normal;
     color: var(--text-color);
     margin-bottom: 30px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
   }
   
   .social-icons {
@@ -33,11 +41,12 @@
     color: var(--text-color);
     font-size: 30px;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.2s ease;
   }
   
   .social-icons a:hover {
     color: #00acee;
+    transform: translateY(-2px);
   }
   
   .explore-link {
@@ -45,9 +54,17 @@
     font-size: 20px;
     text-decoration: none;
     margin-top: 20px;
+    padding: 5px 10px;
+    border: 1px solid #00acee;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
   }
   
   .explore-link:hover {
+    background-color: #00acee;
+    color: white;
     text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
   }
   
