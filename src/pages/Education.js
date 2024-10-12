@@ -3,7 +3,7 @@ import './Education.css';
 
 function Education() {
   const education = [
-    { title: "B.Tech in Computer Science and Engineering", institution: "GITAM Deemed University", duration: "2021 - Present" },
+    { title: "B.Tech in Computer Science and Engineering", institution: "GITAM Deemed University", duration: "2021 - Present | CGPA:9.0" },
     { title: "Intermediate (MPC)", institution: "Narayana Junior College", duration: "2019 - 2021 | CGPA: 9.6" },
     { title: "High School", institution: "Atomic Energy Central School", duration: "2014 - 2019 | CGPA: 9.1" },
   ];
