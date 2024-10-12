@@ -5,7 +5,9 @@ import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import ThemeToggle from './components/ThemeToggle';
 import Career from './pages/Career';
-import Achievements from './pages/Achievements';
+import Education from './pages/Education';
+import Projects from './pages/Projects';
+import Certifications from './pages/Certifications';
 
 function App() {
   const [theme, setTheme] = useState('dark-mode');
@@ -21,7 +23,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Profile />} />
           <Route path="/career" element={<Career />} />
-          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/certifications" element={<Certifications />} />
         </Routes>
         <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
       </div>
